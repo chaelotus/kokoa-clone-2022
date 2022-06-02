@@ -22,23 +22,7 @@
   align-items: center;
   font-size: 32px;
 }
-@media screen and (max-width: 486px) {
-  #no-mobile {
-    display: none;
-  }
-  #landscape-screen {
-    display: none;
-  }
-}
-@media (orientation: portrait) {
-  #landscape-screen {
-    display: none;
-  }
-}
-@media (orientation: landscape) {
-  #landscape-screen {
-    display: flex;
-  }
+@media screen and (max-width: 600px) {
   #no-mobile {
     display: none;
   }
