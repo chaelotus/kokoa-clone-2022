@@ -26,6 +26,9 @@
   #no-mobile {
     display: none;
   }
+  #landscape-screen {
+    display: none;
+  }
 }
 @media (orientation: portrait) {
   #landscape-screen {
